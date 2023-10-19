@@ -6,20 +6,23 @@ def index(request):
 
 def chile(request):
     data={
-        "titulo": "Chile",
-        'producto1':"MAC",
-        'producto2':"Celular",
-        'producto3':"PlayStation",
-        'imagen':'imagenes/productos.jpg'
+        "titulo": "Electronica",
+        'producto1':"Intro",
+        'producto2':"Inicio",
+        'producto3':"Desarrollo",
+        'producto4':"Final",
+        'iemagn':'imagenes/chile.png'
     }
     return render(request,'templatesApp/info.html')
 
 def argentina(request):
     data={
         "titulo": "Argentina",
-        'producto1':"Pelota",
-        'producto2':"Figuera de Accion",
-        'producto3':"Juego de Mesa",
+        'producto1':"Intro",
+        'producto2':"Inicio",
+        'producto3':"Desarrolo",
+        'producto4':"Final",
+        'iemagn':'imagenes/argentina.jpg'
         
     }
     return render(request,'templatesApp/info.html')
@@ -27,9 +30,11 @@ def argentina(request):
 def peru(request):
     data={
         "titulo": "Peru",
-        'producto1':"POlera",
-        'producto2':"Chaqueta",
-        'producto3':"ZApatilla",
+        'producto1':"Intro",
+        'producto2':"Inicio",
+        'producto3':"Desarrollo",
+        'producto4':"Final",
+        'iemagn':'imagenes/peru.jpg'
         
     }
     return render(request,'templatesApp/info.html')
