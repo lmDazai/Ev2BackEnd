@@ -12,7 +12,7 @@ def chile(request):
         'producto3':"PlayStation",
         'imagen':'imagenes/productos.jpg'
     }
-    return render(request,'templatesApp/productos.html')
+    return render(request,'templatesApp/info.html')
 
 def argentina(request):
     data={
@@ -22,7 +22,7 @@ def argentina(request):
         'producto3':"Juego de Mesa",
         
     }
-    return render(request,'templatesApp/productos.html')
+    return render(request,'templatesApp/info.html')
 
 def peru(request):
     data={
@@ -32,6 +32,6 @@ def peru(request):
         'producto3':"ZApatilla",
         
     }
-    return render(request,'templatesApp/productos.html')
+    return render(request,'templatesApp/info.html')
 
 # Create your views here.
